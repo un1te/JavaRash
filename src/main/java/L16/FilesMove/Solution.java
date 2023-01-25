@@ -1,4 +1,4 @@
-package L1.FilesMove;
+package L16.FilesMove;
 
 import java.io.IOException;
 import java.nio.file.DirectoryStream;
@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 // copy only files from one dit to another
-public class Main {
+public class Solution {
     static Path sourceDirectory = Paths.get("src/main/java/L1/FilesMove/source");
     static Path targetDirectory = Paths.get("src/main/java/L1/FilesMove/target");
 
